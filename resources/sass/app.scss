@@ -1,0 +1,41 @@
+@import "material-design-lite";
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mdl-layout-title {
+    a {
+        color: inherit;
+    }
+    a:link {
+        text-decoration: none;
+    }
+}
+
+#main_layout {
+    align-items: center;
+    justify-content: center;
+
+    .mdl-layout__content {
+        padding: 24px;
+        flex: none;
+    }
+
+    .mdl-textfield__error {
+        visibility: visible;
+    }
+}
+
+#action-button {
+    width: 100%;
+    height: 40px;
+    min-width: initial;
+    margin: 20px 0 10px;
+}
+
+#logout {
+    color: white;
+}
